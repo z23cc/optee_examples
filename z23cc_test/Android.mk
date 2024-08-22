@@ -10,7 +10,7 @@ LOCAL_SRC_FILES += host/main.c
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/ta/include
 
 LOCAL_SHARED_LIBRARIES := libteec
-LOCAL_MODULE := optee_example_z23cc_tesst
+LOCAL_MODULE := optee_example_z23cc_test
 LOCAL_VENDOR_MODULE := true
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_EXECUTABLE)
